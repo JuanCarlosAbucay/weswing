@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.mogudaFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:padding="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nomMoguda"
+                android:text="QUEDADA COSMERE"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/tematicRed"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:background="@color/white" />
+            <TextView
+                android:id="@+id/tipusMoguda"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:text="¿CONOCES A UN TAL"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_height="40dp"
+                android:background="@color/white" />
+            <TextView
+                android:id="@+id/dataMoguda"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:text="BRANDON SANDERSON?"
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_height="40dp"
+                android:background="@color/white"  />
+            <Switch
+                android:id="@+id/asistencia"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:text="Assistiré"/>
+
+            <TextView
+                android:text="Organizador i localització"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/oganitzadorcvvv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icono" />
+
+                <TextView
+                    android:id="@+id/asdadsadasdasd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Frikitones"
+                    android:layout_marginLeft="80sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_marginTop="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Barcelona, Espanya"
+                    android:layout_marginLeft="80sp"
+                    android:textSize="20sp" />
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:text="Descripció"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/descriptionText"
+                android:text="La hombrera izquierda de Adolin estalló en una explosión de metal fundido, y los trozos dejaron un rastro de humo en el aire. El más grande resbaló por la arena. Eso dejó la piel de Adolin expuesta al aire, y a las espadas que se enfrentaban a él.
+
+«Por favor… Todopoderoso…».
+
+Dalinar se volvió hacia las gradas llenas de expectantes ojos claros.
+
+—¿No lo veis? —les gritó—. ¡Mi hijo lucha solo! Hay portadores de esquirlada entre vosotros. ¿No hay ninguno de vosotros que esté dispuesto a defenderlo?
+
+Escrutó a la multitud. El rey se miraba los pies. Amaram. ¿Y Amaram? Dalinar lo encontró sentado junto al monarca. Lo miró a los ojos.
+
+Amaram desvió la mirada.
+
+«No…».
+
+—¿Qué nos ha sucedido? —preguntó Dalinar—. ¿Dónde está nuestro honor?
+
+—El honor ha muerto —susurró una voz a su lado.
+
+Dalinar se volvió y miró al capitán Kaladin. No había advertido que el hombre del puente bajaba los escalones tras él.
+
+Kaladin inspiró profundamente y luego miró a Dalinar.
+
+—Pero veré qué puedo hacer. Si sale mal, cuida de mis hombres.
+
+Lanza en mano, se agarró al borde de la muralla y saltó a las arenas de abajo.
+
+"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:background="@color/white" />
+
+            <Button
+                android:id="@+id/asistentsButton"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Asistents"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white" />
+
+            <TextView
+                android:text="Fotografies"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" />
+
+            <TextView
+                android:text="No hay fotos"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:textSize="15dp"
+                android:background="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

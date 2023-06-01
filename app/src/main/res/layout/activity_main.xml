@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blueGreenBack"
+    tools:context=".mainActivity">
+
+    <ImageView
+        android:layout_width="214dp"
+        android:layout_height="375dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon" />
+
+    <Button
+        android:id="@+id/iniciarsesionBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="276dp"
+        android:backgroundTint="@color/tematicRed"
+        android:text="INICIAR SESIÓN" />
+
+    <Button
+        android:id="@+id/registroBtn"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="166dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/tematicRed"
+        android:text="REGISTRO" />
+
+    <TableLayout
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:stretchColumns="*">
+        <TableRow>
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/facebookicon"/>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/intagramicon"/>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gmailicon"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/twittericon"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
